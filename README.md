@@ -5,3 +5,4 @@ If user guess the number he wins if not he loses.
 And in the end user will get his total score.
 3. Dice game: the user has to enter name and dice will roll after that computer will roll his dice 
 Then,both the dice number will be compared and result will be displayed.
+4. generate a specific length(12 to 25) of strong password. 
