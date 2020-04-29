@@ -1,9 +1,13 @@
 from sys import exit
 import random
 import time
+#min variable fr assigning minimum value of the dice that is 1
+#max variable fr assigning minimum value of the dice that is 6
 min = 1
 max = 6
+#player name prompt
 player = input("Enter your name: ")
+#computer name propmt
 computer = ["alpha", "beta", "gamma", "neuro", "vision","grapho"]
 for name in random.sample(computer,1):
     computer = name
@@ -16,6 +20,7 @@ while again == "yes":
     time.sleep(1)
     print(" Dice is rolling \n ")
     time.sleep(2)
+    #random number between 1 to 6 assing to x and y respectively
     x =random.randint(min,max)
     y =random.randint(min,max)
     def dice(d):
